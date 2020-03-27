@@ -4,7 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:fr": "ng serve --configuration=fr",
+    "start:de": "ng serve --configuration=de",
     "build": "ng build",
+    "build:fr": "ng build --configuration=fr",
+    "build:de": "ng build --configuration=de",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -16,6 +20,7 @@
     "@angular/compiler": "~9.0.5",
     "@angular/core": "~9.0.5",
     "@angular/forms": "~9.0.5",
+    "@angular/localize": "^9.1.0",
     "@angular/platform-browser": "~9.0.5",
     "@angular/platform-browser-dynamic": "~9.0.5",
     "@angular/router": "~9.0.5",
